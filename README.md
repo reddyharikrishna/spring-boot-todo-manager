@@ -36,26 +36,26 @@ HTML/CSS
 ## 📦 Installation
 
 1. **Download the Project**
-
+- ```bash
 git clone <repository-url>
 
 2. **Configure Database**
-
+- ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
 spring.datasource.username=root
 spring.datasource.password=root
 
 3. **Configure GitHub Token**
-
+- ```bash
 Generate a GitHub personal access token
 Update token in GitHubGist.js
 
 4.**Start Backend**
-
+- ```bash
 mvn spring-boot:run
 
 5.**Start Frontend**
-
+- ```bash
 npm install
 npm run dev
 
