@@ -46,11 +46,11 @@ Generate a GitHub personal access token
 Update token in GitHubGist.js
 
 4.**Start Backend**
-- ```bash
+- ```
 mvn spring-boot:run
 
 5.**Start Frontend**
-- ```bash
+- ```
 npm install
 npm run dev
 
