@@ -37,15 +37,25 @@ git clone <repository-url>
 2. Configure Database
 
 spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+
 spring.datasource.username=root
+
 spring.datasource.password=root
 
+3. Configure GitHub Token
 
+Generate a GitHub personal access token
 
+Update token in GitHubGist.js
 
+4. Start Backend
 
+mvn spring-boot:run
 
+5. Start Frontend
 
+npm install
+npm run dev
 
 
 ## 📁 Project Structure
