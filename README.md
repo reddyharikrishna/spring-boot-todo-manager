@@ -37,10 +37,10 @@ spring.datasource.password=root
 
 3. Start services:
 
-# Backend
+Backend
 mvn spring-boot:run
 
-# Frontend
+Frontend
 npm install
 npm run dev
 
@@ -49,45 +49,60 @@ npm run dev
 
 
 spring-boot-todo/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   └── resources/
+
 │   └── test/
+
 ├── frontend/
+
 │   ├── src/
+
 │   ├── public/
+
 │   └── package.json
+
 └── README.md
 
 
-📚 API Documentation
+## 📚 API Documentation
+
 POST /api/tasks - Create task
 GET /api/tasks - List tasks
 PUT /api/tasks/{id} - Update task
 DELETE /api/tasks/{id} - Delete task
 
-🔄 Usage Flow
+## 🔄 Usage Flow
+
 Register/Login
 Create project
 Add tasks
 Generate summary
 View GitHub Gist
 
-🌟 Future Scope
+## 🌟 Future Scope
+
 Task prioritization
 Due date reminders
 Team collaboration
 Mobile app version
 
-🤝 Contributing
+## 🤝 Contributing
+
 Fork repository
 Create feature branch
 Commit changes
 Push to branch
 Open Pull Request
 
-📄 License
+## 📄 License
+
 This project is licensed under the MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
