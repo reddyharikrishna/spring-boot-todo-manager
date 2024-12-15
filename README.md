@@ -34,7 +34,7 @@ A modern task management application that allows users to create projects, manag
 
 git clone <repository-url>
 
-3. **Configure Database**
+2. **Configure Database**
 
 spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
 
