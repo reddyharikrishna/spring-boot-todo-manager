@@ -39,20 +39,50 @@ HTML/CSS
 
 git clone <repository-url>
 
+2. **Configure Database**
+
+spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+spring.datasource.username=root
+spring.datasource.password=root
+
+3. **Configure GitHub Token**
+
+Generate a GitHub personal access token
+Update token in GitHubGist.js
+
+4.**Start Backend**
+
+mvn spring-boot:run
+
+5.**Start Frontend**
+
+npm install
+npm run dev
+
 
 ## 📁 Project Structure
 
 
 spring-boot-todo/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   └── resources/
+
 │   └── test/
+
 ├── frontend/
+
 │   ├── src/
+
 │   ├── public/
+
 │   └── package.json
+
 └── README.md
 
 ## Usage
@@ -78,6 +108,7 @@ Push to branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 ## 📄 License
-This project is licensed under the MIT License
+This project is licensed under the MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
