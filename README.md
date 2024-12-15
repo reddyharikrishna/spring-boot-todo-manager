@@ -37,10 +37,12 @@ spring.datasource.password=root
 
 3. Start services:
 
-Backend
+-Backend
+
 mvn spring-boot:run
 
-Frontend
+-Frontend
+
 npm install
 npm run dev
 
