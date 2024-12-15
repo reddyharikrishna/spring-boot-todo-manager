@@ -32,30 +32,30 @@ A modern task management application that allows users to create projects, manag
 
 1. Download the Project
 
-git clone <repository-url>
+- git clone <repository-url>
 
 2. Configure Database
 
-spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+- spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
 
-spring.datasource.username=root
+- spring.datasource.username=root
 
-spring.datasource.password=root
+- spring.datasource.password=root
 
 3. Configure GitHub Token
 
-Generate a GitHub personal access token
+- Generate a GitHub personal access token
 
-Update token in GitHubGist.js
+- Update token in GitHubGist.js
 
 4. Start Backend
 
-mvn spring-boot:run
+- mvn spring-boot:run
 
 5. Start Frontend
 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 
 ## 📁 Project Structure
