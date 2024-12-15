@@ -1,111 +1,93 @@
 # Spring Boot Todo Application
 
-A comprehensive To-Do Application built with Spring Boot backend and React frontend, featuring project and task management capabilities.
+A modern task management system built with Spring Boot and React, featuring CRUD operations, project management, and GitHub Gist integration.
 
-## 🌟 Description
+## 🎥 Demo
+[Watch Demo Video](your-video-url)
 
-A modern task management application that allows users to create projects, manage tasks, and generate project summaries with GitHub Gist integration.
+## ⚡ Key Features
+- CRUD operations for tasks and projects
+- User authentication system
+- Project summary generation with GitHub Gist
+- Search and filter capabilities
+- Database persistence with MySQL
 
-## ✨ Features
-
-- User authentication (Register/Login)
-- Project management
-- Task creation and management
-- Project summary generation
-- GitHub Gist integration
-- Database persistence
-
-## 🛠 Technologies Used
-
-### Backend:
+## 🛠️ Tech Stack
+**Backend:**
 - Spring Boot
 - MySQL
 - JPA/Hibernate
 - Java 17
 
-### Frontend:
+**Frontend:**
 - React.js
 - Vite
-- npm packages
+- Thymeleaf templates
 
-## 📦 Installation
+## 🚀 Quick Start
+1. Clone repository:
 
-1. Download the Project
+git clone https://github.com/yourusername/spring-boot-todo-manager
 
-   - git clone <repository-url>
+2. Configure database in application.properties:
 
-2. Configure Database
+spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+spring.datasource.username=root
+spring.datasource.password=root
 
-   - spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+3. Start services:
 
-   - spring.datasource.username=root
+# Backend
+mvn spring-boot:run
 
-   - spring.datasource.password=root
-
-3. Configure GitHub Token
-
-   - Generate a GitHub personal access token
-
-   - Update token in GitHubGist.js
-
-4. Start Backend
-
-   - mvn spring-boot:run
-
-5. Start Frontend
-
-   - npm install
-   - npm run dev
+# Frontend
+npm install
+npm run dev
 
 
 ## 📁 Project Structure
 
 
 spring-boot-todo/
-
 ├── src/
-
 │   ├── main/
-
 │   │   ├── java/
-
 │   │   └── resources/
-
 │   └── test/
-
 ├── frontend/
-
 │   ├── src/
-
 │   ├── public/
-
 │   └── package.json
-
 └── README.md
 
-## Usage
-Access the application at localhost:5173
-Register a new account
-Login with credentials
-Create new projects
-Add tasks to projects
-Generate project summaries
 
-## 🎯 Future Enhancements
+📚 API Documentation
+POST /api/tasks - Create task
+GET /api/tasks - List tasks
+PUT /api/tasks/{id} - Update task
+DELETE /api/tasks/{id} - Delete task
+
+🔄 Usage Flow
+Register/Login
+Create project
+Add tasks
+Generate summary
+View GitHub Gist
+
+🌟 Future Scope
 Task prioritization
 Due date reminders
-Team collaboration features
-Advanced project analytics
-Mobile application
+Team collaboration
+Mobile app version
 
-## 🤝 Contributing
-Fork the repository
-Create feature branch (git checkout -b feature/AmazingFeature)
-Commit changes (git commit -m 'Add: Amazing Feature')
-Push to branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+🤝 Contributing
+Fork repository
+Create feature branch
+Commit changes
+Push to branch
+Open Pull Request
 
-## 📄 License
+📄 License
 This project is licensed under the MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
