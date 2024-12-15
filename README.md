@@ -31,8 +31,8 @@ A modern task management application that allows users to create projects, manag
 ## 📦 Installation
 
 1. **Download the Project**
- 
- git clone <repository-url>
+
+git clone <repository-url>
 
 3. **Configure Database**
 
@@ -46,11 +46,11 @@ Generate a GitHub personal access token
 Update token in GitHubGist.js
 
 4.**Start Backend**
-- ```
+
 mvn spring-boot:run
 
 5.**Start Frontend**
-- ```
+
 npm install
 npm run dev
 
