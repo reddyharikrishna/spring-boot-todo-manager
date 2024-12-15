@@ -32,7 +32,7 @@ A modern task management application that allows users to create projects, manag
 
 1. **Download the Project**
 
-git clone <repository-url>
+    git clone <repository-url>
 
 
 
