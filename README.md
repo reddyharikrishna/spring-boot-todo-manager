@@ -30,9 +30,17 @@ A modern task management application that allows users to create projects, manag
 
 ## 📦 Installation
 
-1. **Download the Project**
+1. Download the Project
 
-    git clone<repository-url>
+git clone <repository-url>
+
+2. Configure Database
+
+spring.datasource.url=jdbc:mysql://localhost:3306/todomanager
+spring.datasource.username=root
+spring.datasource.password=root
+
+
 
 
 
