@@ -47,7 +47,6 @@ npm run dev
 
 ## 📁 Project Structure
 
-
 spring-boot-todo/
 
 ├── src/
@@ -73,48 +72,33 @@ spring-boot-todo/
 
 ## 📚 API Documentation
 
-POST /api/tasks - Create task
-
-GET /api/tasks - List tasks
-
-PUT /api/tasks/{id} - Update task
-
-DELETE /api/tasks/{id} - Delete task
+- POST /api/tasks - Create task
+- GET /api/tasks - List tasks
+- PUT /api/tasks/{id} - Update task
+- DELETE /api/tasks/{id} - Delete task
 
 ## 🔄 Usage Flow
 
-Register/Login
-
-Create project
-
-Add tasks
-
-Generate summary
-
-View GitHub Gist
+- Register/Login
+- Create project
+- Add tasks
+- Generate summary
+- View GitHub Gist
 
 ## 🌟 Future Scope
 
-Task prioritization
-
-Due date reminders
-
-Team collaboration
-
-Mobile app version
+- Task prioritization
+- Due date reminders
+- Team collaboration
+- Mobile app version
 
 ## 🤝 Contributing
 
-Fork repository
-
-Create feature branch
-
-Commit changes
-
-Push to branch
-
-Open Pull Request
-
+- Fork repository
+- Create feature branch
+- Commit changes
+- Push to branch
+- Open Pull Request
 
 ## 📄 License
 
